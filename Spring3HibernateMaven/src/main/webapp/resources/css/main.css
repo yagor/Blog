@@ -1,0 +1,46 @@
+
+body {border:0; margin:0; padding:0; background:#F2F5FE url("../design/bg.gif") 0 0 repeat-x; font:70%/160% "verdana",sans-serif; color:#192666; _text-align:center;}
+/* Content - article */
+#content .article {clear:both; margin:auto; padding:20px; background:url("../design/content_article_bg1.jpg") 0 0 no-repeat;}
+#content .article h2 {margin:0 -20px; padding:10px; background:#DEE5FD url("../design/content_title_bg.gif") 0 0 repeat-x; color:#192666;}
+#content .article h2 span {background:url("../design/ico_list.gif") 0 50% no-repeat; padding-left:25px;}
+
+#content .article p {text-align:justify;}
+#content .info {margin:10px 0; padding-bottom:8px; border-bottom:1px solid #DEE5FD; color:#6685CC;}
+#content .info a {color:#6685CC;}
+#content .info a:hover {color:#FF9000;}
+
+#content .info span.date, #content .info span.cat, #content .info span.user, #content .info span.comments {padding-left:15px;}
+#content .info span.date {background:url("../design/ico_date.gif") 0 50% no-repeat;}
+#content .info span.cat {background:url("../design/ico_cat.gif") 0 50% no-repeat; margin-left:8px;}
+#content .info span.user {background:url("../design/ico_user.gif") 0 50% no-repeat; margin-left:8px;}
+#content .info span.comments {background:url("../design/ico_comments.gif") 0 50% no-repeat; margin-left:8px;}
+#olol p{
+    font-size: 55px;
+    background:#33CC33
+}
+/* Header */
+#header {position:relative; width:770px; height:100px; margin:auto; padding:0; background:#233C9B url("../design/header.jpg") 0 0 no-repeat; color:#FFF;}
+
+/* Header - logo */
+#header #logo {position:absolute; top:35px; left:35px; margin:0;}
+#header #topmenu {position: absolute; top: 80px; left:315px ;  margin: auto; }
+#header #topmenu a{color: #FFF;}
+#header #logo a {color:#FFF;}
+#header #logo a:hover {color:#B5C4E3; text-decoration:underline;}
+
+
+#container{
+    margin:0 auto;  /*âûðàâíèâàåì ìàêåò ïî öåíòðó â ñîâðåìåííûõ áðàóçåðàõ */
+    text-align:left;  /*Îòìåíÿåì tex-align:center çàäàííîå â Body. Äåëàåì ÷òîáû âåñü òåêñò â ìàêåòå âûðàâíèâàëñÿ ïî ëåâîìó êðàþ */
+    width: 770px;  /*çàäàåì ìèíèìàëüíóþ øèðèíó ìàêåòà â ñîâðåìåííûõ áðàóçåðàõ */
+
+}
+/* FOOTER */
+#footer{
+    margin: auto;
+    color: #FFF;
+    background: #233C9B;
+}
+#footer #botmenu {   margin: auto;}
+#footer #botmenu a{color: #FFF;}
