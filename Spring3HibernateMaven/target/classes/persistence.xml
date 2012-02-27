@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence-unit name="egorevo" transaction-type="RESOURCE_LOCAL">
+    <properties>
+        <property name="hibernate.dialect"
+                  value="org.hibernate.dialect.PostgreSQLDialect"/>
+        <property name="hibernate.format_sql" value="true"/>
+        <property name="hibernate.connection.characterEncoding"
+                  value="UTF-8"/>
+        <property name="hibernate.hbm2ddl.auto" value="create"/>
+    </properties>
+</persistence-unit>
