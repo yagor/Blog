@@ -6,6 +6,12 @@ body {border:0; margin:0; padding:0; background:#F2F5FE url("../design/bg.gif") 
 #content .article h2 span {background:url("../design/ico_list.gif") 0 50% no-repeat; padding-left:25px;}
 #content .comment {clear: both; margin-left: 240px; background: url("../design/content_article_bg.jpg") 0 0 no-repeat;}
 #content .article p {text-align:justify;}
+#content .info1 {margin:10px 0; padding-bottom:8px; border-bottom:1px solid #DEE5FD; color:#6685CC;}
+#content .comment
+#content .info1 { }
+#content .info1 span.date1, #content .info1 span.cat, #content .info1 span.name, #content .info1 span.comments {padding-left:15px;}
+#content .info1 span.date1 {background:url("../design/ico_date.gif") 0 50% no-repeat; margin-left: 15px;}
+#content .info1 span.name {background:url("../design/ico_user.gif") 0 50% no-repeat; margin-left:8px;}
 #content .info {margin:10px 0; padding-bottom:8px; border-bottom:1px solid #DEE5FD; color:#6685CC;}
 #content .info a {color:#6685CC;}
 #content .info a:hover {color:#FF9000;}

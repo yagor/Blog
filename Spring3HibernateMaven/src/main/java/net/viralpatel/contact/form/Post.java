@@ -33,6 +33,8 @@ public class Post {
     @Column(name = "ID_PARENT")
     private Integer id_parent;
 
+
+
     @Column(name="TITLE")
     private String title;
 
@@ -134,4 +136,6 @@ public class Post {
     {
         return text_m;
     }
+
+
 }

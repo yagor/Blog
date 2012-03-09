@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>LoloBlog</title>
-
+     <script type="text/javascript"   src=<c:url value="/resources/js/jscript.js"/>> </script>
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/main.css"/>" media="all">
 
 </head>
@@ -55,13 +55,18 @@
     </div>
     <c:if  test="${!empty listComments}">
 
+       <div id="commentForm">
         <c:forEach items="${post.comments}"   var="comment">
             <div class="comment">
-             <c:out value="${comment.contact.firstname}"/>
+                <p class="info1"> 
+                <span class="date1"><c:out value="${comment.created}"/></span>
+                <span class="name"><c:out value="${comment.contact.firstname}"/></span>    
+                </p>
+                <p><c:out value="${comment.commentText}"/></p>
+                <p class="del">  <a href="posts/deletecomment/${comment.comment_id}">delete</a></p>
+            
             <br/>
-            <c:out value="${comment.commentText}"/>
-            <br/>
-            <a href="posts/deletecomment/${comment.comment_id}">delete</a>
+
             </div>
         </c:forEach>
 
@@ -69,8 +74,35 @@
 
      </c:if>
 
+            <form:form method="post" action="addcomment" commandName="comments" >
+
+                <input type="hidden" name="post_id" value="${post.id_post}"/>
+                <table>
+                    <tr>
+
+                        <td>Enter user id <form:input path="contact.id"  />   </td>
+                        <td><form:textarea path="commentText" cols="40" rows="2" wrap="hard" /></td>
+                    </tr>
+                    <tr>
 
 
+                        <td colspan="2">
+                            <input type="submit" value="add comment"/>
+
+                        </td>
+                    </tr>
+                </table>
+            </form:form>
+
+             <script>
+                 $("#content .info span.comments a").on("click",function () {
+                     $("#commentForm").slideToggle();
+                     e.preventDefault();
+                 });
+
+
+             </script>
+          </div>
         </c:forEach>
 
 </c:if>
@@ -99,25 +131,7 @@
 </form:form>
 
 <h3> теперь для коментариев</h3>
-        <form:form method="post" action="addcomment" commandName="comments" >
 
-
-            <table>
-                <tr>
-                    <td>Enter the post id <form:input path="post_id"/></td>
-                    <td>Enter user id <form:input path="contact.id"  />   </td>
-                    <td><form:textarea path="commentText" cols="40" rows="2" wrap="hard" /></td>
-                </tr>
-                <tr>
-
-
-                    <td colspan="2">
-                        <input type="submit" value="add comment"/>
-
-                    </td>
-                </tr>
-            </table>
-        </form:form>
 
 
 
