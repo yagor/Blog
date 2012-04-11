@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="Spring3HibernateMaven:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="contactmanager.war">
-      <element id="artifact" artifact-name="Spring3HibernateMaven:war exploded" />
-    </root>
-  </artifact>
-</component>
