@@ -52,6 +52,9 @@
        <div class="vk_block">
            <a href="http://vk.com/club48429040" target="_blank"> МЫ VKONTAKTE</a>
        </div>
+        <div class="vk_block">
+            <a href="http://vk.com/club48196785" target="_blank"> МЫ VKONTAKTE</a>
+        </div>
       <div id = "mainContentTitleBold"> <img src = "resources/image/colob.gif" /><br>
         Развивающие занятия через творчество. Клуб «Эрудит» </div>
       <div style = "font-weight: bold; font-style: italic; text-align: center;">(Дети от 7 до 11 лет. Группы формируются по возрастным категориям) </div>
