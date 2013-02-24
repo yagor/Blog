@@ -1,0 +1,361 @@
+
+body, html {
+margin:0px; /*��� ������� �������� �������� ���� � ������, �.�. ��������� �������� �� �� ������� ������������. */
+padding:0px;
+text-align:center; /*����������� ����� �� ������ � ������ ������� ��������� */
+background:#F2F5FE url("../image/bg.gif")  0 0 repeat-x;
+}
+#container{
+margin:0 auto;  /*����������� ����� �� ������ � ����������� ��������� */
+text-align:left;  /*�������� tex-align:center �������� � Body. ������ ����� ���� ����� � ������ ������������ �� ������ ���� */
+width:1100px; /* ������ ������ ������*/
+}
+
+
+
+/*Header */
+#header{
+height: 130px;	
+background-color:#6666CC;
+}
+#header h1 {
+	margin: 0; /* �������� ������ ��� ��������� ������� ������, ������������ � �����. ��� ����� ����������� ������, ��� ������������� ����������. ���� ������������ ���������, �� ���� ����� �������� ������ ��� ���. */
+	 /* ������ ���� */
+	float: right;
+	font-family: cursive;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 0;
+	margin-right: 10px
+}
+#logo {
+    margin-left: 50px;
+    float: left
+}
+
+
+
+/*����� ����� ����� ��� ����� ������� ����� */
+#left{
+background:#F2F5FE url("../image/bg.gif")  0 0 repeat-x;
+width:150px;  /*������ ������� */
+float:left;  /*������������ ������������ �� ������ ����,� ���������� ���������*/
+margin-top: 50px;
+margin-right: 5px;
+margin-left: 15px;
+padding: 10px;
+border-radius: 5px 5px 5px 5px ;
+}
+
+#leftMenu {
+	
+}
+#leftMenu table {
+	border: 3px solid grey;
+	width: 98%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#leftMenu table tr td  {
+	border-bottom: 1px solid grey;
+    
+}
+
+#leftMenu table tr td:hover {
+	border-bottom: 1px solid LightPink;
+}
+
+#leftMenu table tr td a{
+	color: blue;
+	font-size: 18px;
+	text-decoration: none;
+	margin-left: 5px
+	
+}
+
+#mainLeftInfo {
+	margin-top: 55px;
+}
+#mainLeftInfoQuote {
+	font-weight: bold;
+	font-style: italic;
+	font-family: monospace;
+	color: blue;
+	text-align: center;
+	
+}
+#mainLeftInfoImg {
+	background: url("../image/sky.jpg")  0 0 repeat-x;
+	width: 147px;
+	height: 117px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#mainLeftInfoImg2 {
+    background: url("../image/main_new_yaer.jpg")  0 0 repeat-x;
+    width: 147px;
+    height: 147px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainLeftInfoList {
+ font-size: 12px;
+ font-family: monospace;
+}
+#mainLeftInfoList ul li {
+	margin-left: -9px;
+}
+
+/*����� ����� ����� ��� ������ ������� ����� */
+#right{
+width:100px; /*������ ������ ������� */
+background-color:#a9d28c;
+float:right; /*������������ ������������ ������� �� ������� ���� � ���������� ��������� */
+}
+/*����� ����� ����� ��� ����� �������� */
+#middle_container{
+
+margin:0px;
+}
+#middle_container h1 {
+margin:0px; /* �������� ������ ��� ��������� ������� ������, ������������ � ����� ��������.*/
+} 
+#middle_container p {
+margin:0px; /* �������� ������ ��� ���������� �, ������������ � ����� ��������.*/
+padding:5px; /*������ ����, �.�. ����� ��� ���������� ����� ��������, ����� ���� �������, ��� ��� �������� :)*/
+}
+/* main content */
+#main_content {
+
+width: 840px;
+float: right;
+margin-top: 50px;
+margin-right: 30px;
+margin-bottom: 50px;
+margin-left: 15px;
+padding: 10px;
+}
+
+
+
+
+
+#mainContentTitle {
+	font-family: monospace;
+	font-style: italic;
+	color: blue;
+	font-size: 16px;
+}
+
+#mainContentTitleBold {
+        font-size: 24px;
+        font-weight: bold;
+        color: blue;
+        text-align: center;
+        font-family: monospace;
+    font-style: italic;
+        
+}
+
+#mainContentContacts table tr td{
+	
+	font-family: monospace;
+	font-size: 12px;
+}
+
+#mainContentText {
+	margin-bottom: 10px;
+}
+#mainContentText p{
+	marginleft: 4px;
+	
+}
+#video {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#emailImg {
+	background: url("../image/email.jpg")  0 0 repeat-x;
+	width: 147px;
+	height: 117px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#main_menu {
+	float: right;
+	margin-right:30px; 
+	margin-top: 40px;
+	
+	
+}
+/*
+#main_menu span {
+	padding: 5px;
+	background-color: #CCCCCC;
+	border: 1px solid grey;
+	border-radius: 5px 5px 5px 5px;
+}
+#main_menu span a{
+	color: blue;
+	text-decoration: none;
+}
+
+#main_menu span a:hover {
+	background-color: BurlyWood;
+	
+}
+ */
+#olo {
+	list-style-type: disc;
+}
+
+#mainList ul li ol li {
+	
+	font-style: italic;
+	font-family: monospace;
+
+	font-size: 12px;
+}
+
+#ourPsiholog {
+      border: 1px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+#ourPsiholog table tr td {
+    vertical-align: top;
+}
+
+#paragraph {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#schedule {
+    color: brown;
+    font-weight: bold;  
+}
+
+#schedule table {
+     border: 1px solid black;
+}
+
+#schedule table tr td{
+    padding: 2px;
+     border: 1px solid black;
+}
+
+
+/*�������, ������� �������� ������ ����� ���� ���� ������. ����� ��� ���������� ������ ������. */
+#clear{
+height:0;
+font-size:1px;
+line-height:0px;
+clear:both;
+}
+/*����� ����� ����� ��� ������� ����� */
+#footer{
+
+}
+#footer p{
+margin:0px;  /* �������� �������*/
+padding: 10px 0; /*  ������ ���� */
+font-family: monospace;
+font-size: 10px;
+margin-left: 10%;
+}
+
+#rightKid,
+#leftKid {
+    float: left;
+    width: 150px;
+/*    border: 1px solid grey;*/
+/*    border-radius: 5px 5px 5px 5px;*/
+    padding: 5px;
+    color: blue;
+    font-style: italic;
+    height: 600px;    
+} 
+
+#rightKid {
+    float: right;
+}    
+
+#blueAndItalic {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}  
+#blue {
+    color: blue;
+    font-weight: bold;
+} 
+#listMargin {
+    margin-left: 20px;
+}
+
+#foto a {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.mainMenuExt td,
+.mainMenu td {
+    padding: 5px;
+    background-color: #CCCCCC;
+    border: 1px solid grey;
+    border-radius: 5px 5px 5px 5px;
+}
+.mainMenuExt a,
+.mainMenu a{
+    color: blue;
+    text-decoration: none;
+}
+.mainMenuExt a:hover,
+.mainMenu a:hover {
+    background-color: BurlyWood;
+}
+
+.tdMenu table {
+    display: none;
+}
+.tdMenuExt table {
+    position: absolute;
+    display: block;
+}
+
+
+.rightContainer{
+    background:#F2F5FE url("../image/bg.gif")  0 0 repeat-x;
+    width:150px;  /*������ ������� */
+    float:right;  /*������������ ������������ �� ������ ����,� ���������� ���������*/
+    margin-top: -10px;
+    margin-right: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px ;
+    height: 700px;
+    color: blue;
+}
+.rightContainer div {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vk_block a {
+    color: blue;
+    font-size: 13px;
+    font-weight: bold;
+    background: url("../image/vk.png") no-repeat left;
+    padding-left: 21px;
+    text-decoration: none;
+}
+
